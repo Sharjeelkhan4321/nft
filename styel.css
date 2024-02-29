@@ -1,0 +1,324 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;}
+
+    /* .background{
+
+width: 500px;
+height: 500px;
+border: 2px white solid;
+z-index: 0;
+    } */
+body{
+
+    background-color: #161616;
+    
+}
+
+
+    /* NAVBAR START */
+
+.nav{
+width: 100vw;
+height: 60px;
+    background-color:#161616;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+
+}
+
+.fa-solid fa-bars{
+    color: yellow;
+}
+ul{
+width: 400px;
+display: flex;
+justify-content:space-evenly;
+/* background-color: blue; */
+color: white;
+
+
+}
+li{
+list-style: none;
+
+
+
+}
+.fa-solid {
+
+font-size: 30px;
+color:#F7A337;
+
+}
+.btn button{
+
+border-style: none;
+width: 110px;
+height: 40px;
+border-radius: 15px;
+background-color: #161616;
+color: white;
+border: 0.5px white solid;
+
+}
+.btn0:hover{
+    background-color: #F7A337;
+    color: white;
+    border:1px white solid ;
+    transition: 0.5s;
+}
+@media screen  and (max-width: 780px){
+
+    .fa-solid fa-bars{font-size: 8px;}
+.nav{justify-content: space-between;
+/* background-color: rgba(0, 0, 0, 0.6); */
+/* width: 100vw; */
+}
+
+}
+li{
+    font-size: 12px;
+}
+.btn button{
+    padding: 10px;
+    width: 90px;
+}
+
+
+
+
+
+
+
+
+
+.headings-cont{
+/* border: 2px black solid; */
+width: 400px;
+height: 350px;
+margin: 70px;
+display: flex;
+justify-content: space-between;
+margin-bottom: 0px;
+/* background-color: aqua; */
+flex-direction: column;
+
+}
+
+.headings h2{
+font-size: 70px;
+padding: 10px;
+color: white;
+}
+
+.para{
+width: 400px;
+/* height: 190px; */
+font-size: 20px;
+padding: 10px;
+display: block;
+/* background-color: #F7A337; */
+color: white;
+
+}
+
+.buttons{
+width: 280px;
+display: flex;
+flex-direction:row;
+/* border: 2px black solid; */
+margin-left: 70px;
+margin-top: 10px;
+justify-content: center;
+}
+.btn-cont{
+width: 140px;
+    /* border: 2px black solid; */
+/* margin-left: 70px;
+margin-top: 30px; */
+display: flex;
+flex-direction: row;
+justify-content: center;
+display: inline-block;
+}
+
+.btn-cont button{
+border-style: none;
+width: 120px;
+height: 40px;
+background-color: #F7A337;
+border: 0.5px #F7A337 solid;
+border-radius: 8px;
+margin-right: 10px;
+font-size: 13px;
+
+}
+.btn-cont2 {
+          width: 140px;
+            /* border: 2px black solid; */
+        /* margin-left: 10px;
+        margin-top: 30px; */        
+       display: flex;
+        flex-direction: row;
+        justify-content: center;
+        display: inline-block;
+
+}
+
+.btn-cont2 button{
+
+    border-style: none;
+    width: 120px;
+    height: 40px;
+    background-color:#161616;
+    border: 0.5px #F7A337 solid;
+    color: white;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.btn-cont button:hover{
+background-color: #161616;
+border: 0.5px #F7A337 solid;
+color: #F7A337;
+
+}
+
+.btn-cont2 button:hover{
+    background-color: #F7A337;
+    color: #161616;
+}
+
+ .small{
+/* 
+border: 2px white solid; */
+width: 300px;
+height: 50px;
+margin-left: 70px;
+margin-top: 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+} 
+.k1{
+
+    color: #F7A337;
+}
+.k2{
+    color: white;
+    margin-top: 5px;
+}
+.k01{
+    color: #F7A337;
+
+}
+.k02{
+
+    color: white;
+}
+.k001{
+    color: #F7A337;
+}
+
+.k002{
+
+    color: white;
+}
+
+.img2{
+
+    width: 500px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    
+
+}
+
+
+@media screen and (max-width: 500px){
+
+
+    .nav{justify-content: space-between;
+        /* background-color: rgba(0, 0, 0, 0.6); */
+        /* width: 100vh; */
+        padding-left:0 ;
+        }
+
+
+
+
+
+    .headings-cont{
+margin: 30px;
+width: 300px;
+height: 250px;
+}
+.headings h2{
+
+    font-size: 50px;
+}
+.para{
+
+
+    width: 340px;
+    font-size: 17px;
+}
+
+.buttons{
+width: 135px;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 8px;
+
+}
+
+.btn-cont2{
+
+    margin-top: 10px;
+}
+.btn-cont2 button{
+
+    width: 90px;
+}
+.btn-cont button{
+    width: 90px;
+}
+
+
+
+.small{
+
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.k002{
+
+    display: inline-block;
+}
+
+
+}
+
+@media screen and (max-width: 940px){
+
+
+    .img2{
+        width: 100vw;
+            z-index: -29;
+         /* background-color: rgba(0, 0, 0, 0.1);    */
+         
+        }
+        
+
+}
